@@ -1,0 +1,134 @@
+/* XL Device :1920px. */
+@media screen and (min-width: 1700px) {
+	
+}
+
+
+@media screen and (min-width: 1400px) and (max-width: 1680px) {
+	.header-search {width: 600px;}
+	.main-menu ul li > a {margin-right: 10px;}
+	.main-menu ul li > a {
+		margin-right: 8px;
+		font-size: 14px;
+	}
+	.logo {min-width: 140px;}
+	.header-right-area.pl-90 {padding-left: 50px;}
+	.header-top::after {left: -40px;right: -67px;}
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+	.header {padding-left: 20px;padding-right: 20px;}
+	.header-search {width: 500px;}
+	.main-menu ul li > a {margin-right: 8px;}
+	.logo {min-width: 130px;}
+	/*.header-right-area {padding-left: 35px;}*/
+	.slider-height {min-height: 660px;}
+	.header-top::after {left: -16px;right: -32px;}
+	/* home2 */
+	.section-title h3 {padding-right: 80px;}
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+	.header {padding-left: 8px;padding-right: 8px;}
+	.logo {min-width: 125px;}
+	.main-menu ul li > a {margin-right: 5px; font-size: 13px;}
+
+}
+
+/* LG Device :992px. */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.slider-height {min-height: 600px;}
+	.header {padding-left: 0;padding-right: 0;}
+	.header-search {width: 400px;}
+	.main-menu ul li > a {margin-right: 8px;font-size: 12px;}
+	.logo {min-width: 120px;}
+	.header-right-area {padding-left: 0;}
+	.header-right-area {margin-left: -10px;}
+	.footer-address a.footer-phone {font-size: 30px;}
+	.footer-widget.f-adress.pb-30.pr-60.ml--35 {padding-right: 0;margin-left: -50px;}
+	.office-time{padding-top: 30px;}
+	.header-top::after {
+		left: -16px;
+		right: 0;
+	}
+	/* home2 */
+	.slider2 .slider-content h2 {font-size: 55px;}
+	.home2-handpick-items-active,.best-deal-product-active{margin-left: 0;}
+}
+
+
+
+/* MD Device :768px. */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.header {padding-left: 10px;padding-right: 10px;}
+	.header-search {width: auto;}
+	.main-menu ul li > a {margin-right: 6px;}
+	.logo {min-width: 120px;}
+	.header-top::after {left: -12px;}
+	.header-right-area {padding-left: 0;}
+	.footer-widget.f-adress.pb-30.pr-60.ml--35 {padding-right: 0;margin-left: 0;}
+	.category-lineup h2 {font-size: 80px;}
+	.slider-height {min-height: 580px;}
+	.header-top::after {left: -24px;right: -22px;}
+	/* home2 */
+	.home2-handpick-items-active,.best-deal-product-active{margin-left: 0;}
+}
+
+
+/* Extra small Device. */
+@media screen and (max-width: 767px) {
+
+	.logo-area{padding: 10px 0; display: flex; align-items: center; justify-content: space-between;}
+	.header {padding-left: 0;padding-right: 0;}
+	.header-search {width: auto;}
+	.header-top {padding: 0;}
+	.logo::after {height: 134%;}
+	.main-menu ul li > a {margin-right: 6px;}
+	.logo {min-width: 50%;}
+	.header-top::after {left: -12px;}
+	.header-right-area {padding-left: 0;}
+	.slider-height {min-height: 480px;}
+	/* slider */
+	.slider-height {
+		min-height: 480px;
+		background-position: left;
+	}
+	.slider-content h2 {font-size: 38px;}
+	.slider-content p {font-size: 16px;}
+	.category-lineup h2 {font-size: 32px;line-height: .8;text-align: center;}
+	h3 {font-size: 35px;}
+	.footer-widget.f-adress {
+		padding-right: 0;
+		margin-left: 0;
+		padding-bottom: 45px;
+	}
+	.footer-address a.footer-phone {font-size: 32px;}
+	.footer-area .pl-0 {padding-left: 15px;}
+	.side-mobile-menu {width: 100%;}
+	.header-top::after {left: -24px;right: -22px;}
+	/* home2 */
+	.slider2 .slider-content h2 {font-size: 30px;padding-bottom: 5px;}
+	.slider2 .single-product-price span {font-size: 22px; margin-top: 0;}
+	.slider2 .slider-content p {font-size: 15px;padding-right: 15px;}
+	.slider2 .slider-content {left: 4%;}
+	.home2-handpick-items-active,.best-deal-product-active{margin-left: 0;}
+	.home2-handpick-items-active,.best-deal-product .section-title,.best-deal-product-active{padding-left: 15px;}
+	
+}
+
+/* SM Small Device :550px. */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+	.category-lineup h2 {font-size: 50px; word-spacing: -8px;}
+
+}
+
+/* SM Small Device :550px. */
+@media screen and (min-width: 400px) and (max-width: 576px) {
+	.category-wrapper1 .col-xxl-2.col-xl-2.col-lg-2.col-md-4.col-sm-4.col-12 {width: 50%}
+	.category-lineup h2 {font-size: 45px; word-spacing: -8px;}
+}
+
+
